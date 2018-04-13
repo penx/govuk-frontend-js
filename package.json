@@ -1,0 +1,27 @@
+{
+  "name": "govuk-frontend-js",
+  "version": "0.0.1",
+  "description": "govuk-frontend Sass global variables converted to JavaScript objects (using sass-extract-js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/govuk-frontend-js.git"
+  },
+  "author": "Alasdair McLeay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penx/govuk-frontend-js/issues"
+  },
+  "homepage": "https://github.com/penx/govuk-frontend-js#readme",
+  "devDependencies": {
+    "@govuk-frontend/all": "0.0.26-alpha",
+    "@govuk-frontend/globals": "0.0.26-alpha",
+    "node-sass": "^4.8.3",
+    "sass-extract": "^2.1.0",
+    "sass-extract-js": "^0.3.0",
+    "sass-extract-loader": "^1.1.0"
+  }
+}
